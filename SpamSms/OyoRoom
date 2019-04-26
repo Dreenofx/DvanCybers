@@ -11,7 +11,7 @@ function spam($no, $jum) {
 	curl_close($ch);
 	$js = json_decode($x);
 	if ($js->status == "correct") {
-		echo $i. ".Udah Terkirim Yyahh ANJENG :D\n";
+		echo $i. ".Udah Masuk Yyahh ANJENG :D\n";
 	}else {
 		echo $i. ".GAGAL TOD\n";
 		}
@@ -28,10 +28,10 @@ Author : D'Van Cyber\nTeam : K0P45KK4 CYB3R T34M
 =======================================\n";
     sleep(2);
     echo $banner;
-	echo "[+] Masukan Target Asw : ";
+	echo "[+] Masukin Target Nya Asw : ";
 	$no = trim(fgets(STDIN));
 	sleep(1);
-	echo "[+] Masukan Jumlah Njeng : ";
+	echo "[+] Berapa yang Lu Mau Njeng : ";
 	$jum = trim(fgets(STDIN));
 	sleep(1);
 	echo "\n\nWait ASW! : \n";
